@@ -1,14 +1,20 @@
+aid: reporting-templates
 name: Reporting Templates
 description: Pre-built document templates for generating standardized reports, dashboards,
   and data presentations with consistent formatting and structure. Organizations use
   it to track key metrics, identify trends, and optimize business outcomes.
-url: null
+type: Index
+url: https://raw.githubusercontent.com/api-evangelist/reporting-templates/refs/heads/main/apis.yml
 tags:
 - Reporting
 - Templates
 - Documentation
 - Business Intelligence
-created: '2025'
-modified: '2025'
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
 common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
