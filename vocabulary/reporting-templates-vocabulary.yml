@@ -1,0 +1,192 @@
+name: Reporting Templates Vocabulary
+description: >-
+  Vocabulary and taxonomy for reporting templates, business intelligence tools,
+  data visualization platforms, and API-driven reporting workflows. Covers
+  template formats, report types, metrics, and platform-specific concepts.
+version: "1.0.0"
+created: "2026-05-02"
+modified: "2026-05-02"
+
+categories:
+  - name: Report Types
+    description: Common categories of business reports.
+    terms:
+      - term: Executive Summary Report
+        definition: >-
+          A high-level overview report for senior leadership summarizing
+          key performance indicators, strategic progress, and major decisions.
+          Typically one to two pages with minimal detail.
+
+      - term: Financial Report
+        definition: >-
+          A report showing financial performance including revenue, expenses,
+          profit/loss, and balance sheet items. Includes income statements,
+          cash flow statements, and financial forecasts.
+
+      - term: Operational Report
+        definition: >-
+          A detailed report on day-to-day operational metrics such as
+          productivity, throughput, error rates, and capacity utilization.
+
+      - term: Marketing Report
+        definition: >-
+          A report tracking marketing performance: campaign metrics, lead
+          generation, conversion rates, channel performance, and ROI.
+
+      - term: Sales Report
+        definition: >-
+          A report on sales pipeline, closed deals, revenue attainment,
+          quota performance, and sales team activity metrics.
+
+      - term: IT / DevOps Report
+        definition: >-
+          A technical report covering system uptime, incident counts,
+          deployment frequency, change failure rate, and mean time to recovery.
+
+      - term: Compliance Report
+        definition: >-
+          A structured report documenting adherence to regulatory requirements,
+          audit results, policy violations, and remediation status.
+
+      - term: Customer Success Report
+        definition: >-
+          A report on customer health metrics: NPS, CSAT, churn rate,
+          renewal rate, support ticket volume, and onboarding completion.
+
+  - name: Template Formats
+    description: File formats and platforms used for report templates.
+    terms:
+      - term: PBIT
+        definition: >-
+          Power BI Template file format (.pbit). Contains a Power BI report
+          structure without embedded data, allowing users to connect their
+          own data sources.
+        platform: Microsoft Power BI
+
+      - term: PBIX
+        definition: >-
+          Power BI Desktop file format (.pbix). Contains both the report
+          definition and data model, sometimes used as a template starting point.
+        platform: Microsoft Power BI
+
+      - term: LookML
+        definition: >-
+          Looker's modeling language for defining dimensions, measures,
+          and explores. LookML templates define reusable reporting structures.
+        platform: Google Looker
+
+      - term: Tableau Workbook
+        definition: >-
+          A Tableau file (.twbx) containing a packaged workbook with
+          visualizations and data. Can be used as a report template.
+        platform: Tableau
+
+      - term: Google Sheets Template
+        definition: >-
+          A Google Sheets spreadsheet shared as a template via the Template
+          Gallery. Users make a copy and replace data.
+        platform: Google Sheets
+
+      - term: Grafana Dashboard JSON
+        definition: >-
+          A JSON file exported from Grafana containing a full dashboard
+          definition. Can be imported as a template into any Grafana instance.
+        platform: Grafana
+
+      - term: Jupyter Notebook
+        definition: >-
+          An interactive Python/R notebook (.ipynb) that combines code,
+          visualizations, and narrative for reproducible data analysis reports.
+
+  - name: Metrics and KPIs
+    description: Common business metrics used in reporting templates.
+    terms:
+      - term: KPI (Key Performance Indicator)
+        definition: >-
+          A quantifiable measure used to evaluate success in meeting objectives.
+          KPIs are central to executive and operational report templates.
+
+      - term: MoM (Month-over-Month)
+        definition: >-
+          A comparison of a metric value between the current month and the
+          previous month. Used to show short-term trends in reports.
+
+      - term: YoY (Year-over-Year)
+        definition: >-
+          A comparison of a metric value between the current period and the
+          same period in the previous year. Accounts for seasonality.
+
+      - term: Rolling Average
+        definition: >-
+          A moving average calculated over a rolling time window (e.g., 7-day
+          or 30-day). Smooths out short-term fluctuations in trend reporting.
+
+      - term: Funnel Metrics
+        definition: >-
+          Metrics tracking conversion at each stage of a process funnel (e.g.,
+          marketing funnel: impressions → clicks → leads → conversions).
+
+      - term: DORA Metrics
+        definition: >-
+          Four DevOps performance metrics: Deployment Frequency, Lead Time for
+          Changes, Change Failure Rate, and Mean Time to Recovery (MTTR).
+
+  - name: Visualization Types
+    description: Chart and visualization types used in report templates.
+    terms:
+      - term: Bar Chart
+        definition: "A chart using rectangular bars to compare values across categories."
+
+      - term: Line Chart
+        definition: "A chart connecting data points with lines, typically used for time series."
+
+      - term: Pie Chart
+        definition: "A circular chart divided into slices to show proportional composition."
+
+      - term: Scatter Plot
+        definition: "A chart showing the relationship between two variables as dots."
+
+      - term: Heat Map
+        definition: "A visualization using color intensity to show value distribution across two dimensions."
+
+      - term: Gauge Chart
+        definition: "A dial or gauge visualization showing a single KPI value against a target or range."
+
+      - term: Table
+        definition: "A structured grid displaying rows and columns of data, often sortable."
+
+      - term: Treemap
+        definition: "A hierarchical visualization using nested rectangles sized by value."
+
+  - name: API Integrations
+    description: Common APIs used to power reporting templates.
+    terms:
+      - term: Google Sheets API
+        definition: >-
+          REST API for reading, writing, and formatting Google Sheets.
+          Commonly used to populate report templates with live data.
+        url: https://developers.google.com/sheets/api
+
+      - term: Tableau REST API
+        definition: >-
+          REST API for automating Tableau Server administration, publishing
+          workbooks, and triggering data refreshes.
+        url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
+
+      - term: Power BI REST API
+        definition: >-
+          REST API for managing Power BI workspaces, datasets, and reports
+          programmatically via the Power BI service.
+        url: https://docs.microsoft.com/en-us/rest/api/power-bi/
+
+      - term: Looker API
+        definition: >-
+          REST API for programmatic access to Looker content, running looks
+          and dashboards, and managing users and permissions.
+        url: https://developers.looker.com/api/explorer/
+
+      - term: Grafana HTTP API
+        definition: >-
+          REST API for Grafana dashboard provisioning, alerting, and
+          datasource management. Used to deploy dashboard templates.
+        url: https://grafana.com/docs/grafana/latest/developers/http_api/
