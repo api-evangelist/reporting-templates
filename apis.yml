@@ -20,6 +20,10 @@ modified: '2026-05-02'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/reporting-templates-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/reporting-templates-domain-security.yml
   - type: Website
     url: https://www.google.com/sheets/about/
     name: Google Sheets
