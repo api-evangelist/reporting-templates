@@ -47,38 +47,6 @@ common:
     url: security/reporting-templates-vulnerability-disclosure.yml
   - type: DomainSecurity
     url: security/reporting-templates-domain-security.yml
-  - type: Website
-    url: https://www.google.com/sheets/about/
-    name: Google Sheets
-    description: "Google Sheets supports report templates via Sheets templates gallery."
-  - type: Website
-    url: https://www.tableau.com
-    name: Tableau
-    description: "Tableau provides workbook and dashboard templates for data visualization."
-  - type: Website
-    url: https://powerbi.microsoft.com
-    name: Microsoft Power BI
-    description: "Power BI offers report templates (.pbit files) for reusable dashboards."
-  - type: Website
-    url: https://looker.com
-    name: Google Looker
-    description: "Looker provides LookML-based report and dashboard templates."
-  - type: Website
-    url: https://www.datadog.com
-    name: Datadog
-    description: "Datadog dashboard templates for monitoring and observability reporting."
-  - type: Website
-    url: https://grafana.com
-    name: Grafana
-    description: "Grafana dashboard templates for metrics and log visualization."
-  - type: Website
-    url: https://docs.google.com/document/u/0/
-    name: Google Docs
-    description: "Google Docs template gallery for report documents."
-  - type: Website
-    url: https://templatelab.com
-    name: TemplateLab
-    description: "Free business report template downloads."
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
