@@ -23,6 +23,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reporting-templates.png
 name: Reporting Templates
+kind: topic
 description: >-
   Pre-built document templates for generating standardized reports, dashboards,
   and data presentations with consistent formatting and structure. Organizations
