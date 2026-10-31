@@ -1,4 +1,4 @@
-# Reporting Templates (reporting-templates)
+# reporting-templates
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,52 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pre-built document templates for generating standardized reports, dashboards, and data presentations with consistent formatting and structure. Organizations use reporting templates to track key metrics, identify trends, optimize business outcomes, and communicate data insights to stakeholders. This collection catalogs APIs and tools for working with report templates across business intelligence, analytics, document generation, and data visualization platforms.
+## reporting-templates on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/reporting-templates/refs/heads/main/apis.yml)
+Everything profiled for reporting-templates is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/reporting-templates/](https://apis.io/providers/reporting-templates/)** — or go straight to one of the APIs or properties below.
 
-## Scope
+## API Evangelist rating
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Not yet rated. See [apis.io/providers/reporting-templates/](https://apis.io/providers/reporting-templates/).
 
-## Tags:
+## How this profile is made
 
-- Business Intelligence
-- Data Visualization
-- Documentation
-- Reporting
-- Templates
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Timestamps
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for reporting-templates: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-05-02
+## Open an issue
 
-## Common Properties
-
-- [Google Sheets](https://www.google.com/sheets/about/)
-- [Tableau](https://www.tableau.com)
-- [Microsoft Power BI](https://powerbi.microsoft.com)
-- [Google Looker](https://looker.com)
-- [Datadog](https://www.datadog.com)
-- [Grafana](https://grafana.com)
-- [Google Docs](https://docs.google.com/document/u/0/)
-- [TemplateLab](https://templatelab.com)
-
-## Artifacts
-
-### JSON-LD Contexts
-
-- [reporting-templates-context.jsonld](json-ld/reporting-templates-context.jsonld) — Linked data context mapping reporting template terms to schema.org vocabulary
-
-### Vocabulary
-
-- [reporting-templates-vocabulary.yml](vocabulary/reporting-templates-vocabulary.yml) — Domain vocabulary covering report types, template formats, metrics, visualization types, and API integrations
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/reporting-templates/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
